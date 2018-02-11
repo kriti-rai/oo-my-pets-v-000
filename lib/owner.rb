@@ -25,7 +25,7 @@ class Owner
   def initialize(species)
     @species = species
   end
-  
+
   def say_species
     #can say its species
     @pets.keys

@@ -1,10 +1,14 @@
 class Owner
   attr_accessor :pets, :name
-  
+
   @pets = {fishes: [], cats: [], dogs: []}
   @@all = []
 
   ###CLASS METHODS
+  def initialize(name)
+    # class method to initialize an owner
+    @name = name
+  end
 
   def class.all
   #keeps track of the owners that have been created
@@ -16,10 +20,7 @@ class Owner
     self.all << owner
     #  unless self.owners.include?(owner)
   end
-  def initialize(name)
-    # class method to initialize an owner
-    @name = name
-  end
+
   #
   # #INSTANCE METHODS
   # def species(species)

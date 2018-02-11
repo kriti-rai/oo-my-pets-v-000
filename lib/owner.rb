@@ -20,7 +20,9 @@ class Owner
     self.all.count
     #  unless self.owners.include?(owner)
   end
-
+  def self.reset_all
+    @@all.clear
+  end
   #
   # #INSTANCE METHODS
   # def species(species)

@@ -9,12 +9,12 @@ class Owner
     @name = name
   end
 
-  def class.all
+  def self.all
   #keeps track of the owners that have been created
     @@all
   end
 
-  def class.all_count
+  def self.all_count
     owner = self.new(name)
     self.all << owner
     self.all.count

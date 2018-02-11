@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :pets, :owners
+  attr_accessor :pets
   @pets = {fishes: [], cats: [], dogs: []}
   @@all = []
 
@@ -7,12 +7,12 @@ class Owner
 
   def class.all
   #keeps track of the owners that have been created
-    @@owners
+    @@all
   end
 
   def class.owners_count
     owner = self.new
-    self.owners << owner
+    self.all << owner
     #  unless self.owners.include?(owner)
   end
   # def initialize(name)

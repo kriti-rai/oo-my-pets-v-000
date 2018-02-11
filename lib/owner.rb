@@ -11,7 +11,8 @@ class Owner
 
   def self.all
   #keeps track of the owners that have been created
-    @@all
+    o = self.new(name)
+    @@all.collect {|owner| @@all << o unless o == owner}
   end
 
   def self.all_count

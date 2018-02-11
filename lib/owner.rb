@@ -9,7 +9,7 @@ class Owner
     @name = name
     @@all << self
     @pets = {fishes: [], cats: [], dogs: []}
-    # @species = species
+    @species = species
   end
   def self.all
     @@all
@@ -24,7 +24,7 @@ class Owner
 
   # #INSTANCE METHODS
   def species
-    
+
   def say_species
     #can say its species
     @pets.keys

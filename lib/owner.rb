@@ -6,15 +6,15 @@ class Owner
   @@all = []
 
   def initialize(name)
-    # class method to initialize an owner
     @name = name
+    @@all << self
   end
 
   def self.all
   #keeps track of the owners that have been created
     # binding.pry
-    owner = self.new(name)
-    @@all << owner
+    # owner = self.new(name)
+    @@all 
   end
 
   def self.count

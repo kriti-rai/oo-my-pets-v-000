@@ -15,7 +15,7 @@ class Owner
     @@all << owner
   end
 
-  def self.all_count
+  def self.count
     self.all.size
     #  unless self.owners.include?(owner)
   end

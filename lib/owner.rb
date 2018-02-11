@@ -16,7 +16,7 @@ class Owner
   end
 
   def self.all_count
-    self.all.count
+    self.all.size
     #  unless self.owners.include?(owner)
   end
   def self.reset_all

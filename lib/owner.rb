@@ -3,13 +3,13 @@ class Owner
   attr_accessor :pets, :name
   attr_reader :species
 
-  @pets = {fishes: [], cats: [], dogs: []}
   @@all = []
 
   def initialize(name)
     @name = name
     @@all << self
-    @species = species
+    @pets = {fishes: [], cats: [], dogs: []}
+    # @species = species
   end
   def self.all
     @@all
@@ -23,6 +23,8 @@ class Owner
   end
 
   # #INSTANCE METHODS
+  def species
+    
   def say_species
     #can say its species
     @pets.keys

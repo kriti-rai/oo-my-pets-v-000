@@ -16,8 +16,6 @@ class Owner
   end
 
   def self.all_count
-    owner = self.new(name)
-    self.all << owner
     self.all.count
     #  unless self.owners.include?(owner)
   end

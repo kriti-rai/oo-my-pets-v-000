@@ -22,7 +22,7 @@ class Owner
     #  unless self.owners.include?(owner)
   end
   def self.reset_all
-    self.all = []
+    self.all.clear
   end
   #
   # #INSTANCE METHODS

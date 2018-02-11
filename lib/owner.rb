@@ -1,6 +1,6 @@
 class Owner
   attr_accessor :pets, :owners
-  @pets = {fishes:[], cats:[], dogs:[]}
+  @pets = {fishes: [], cats: [], dogs: []}
   @@owners = []
 
   #CLASS METHODS
@@ -13,19 +13,19 @@ class Owner
     owner = self.new
     self.owners << owner unless self.owners.include?(owner)
   end
-  def initialize(name)
-    #class method to initialize an owner
-    @name = name
-  end
-
-  #INSTANCE METHODS
-  def species(species)
-
-  end
-
-  def say_species
-    #can say its species
-  end
+  # def initialize(name)
+  #   #class method to initialize an owner
+  #   @name = name
+  # end
+  # 
+  # #INSTANCE METHODS
+  # def species(species)
+  # 
+  # end
+  # 
+  # def say_species
+  #   #can say its species
+  # end
 
 
 

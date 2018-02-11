@@ -3,15 +3,16 @@ class Owner
   @pets = {fishes: [], cats: [], dogs: []}
   @@owners = []
 
-  #CLASS METHODS
+  ###CLASS METHODS
 
   def class.owners
   #keeps track of the owners that have been created
     @@owners
   end
+
   def class.owners_count
     owner = self.new
-    self.owners << owner unless self.owners.include?(owner)
+    self.owners << owner
   end
   # def initialize(name)
     #class method to initialize an owner

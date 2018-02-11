@@ -20,15 +20,16 @@ class Owner
   def self.reset_all
     @@all.clear
   end
-  
+
   # #INSTANCE METHODS
   def initialize(species)
-    @species = species  
+    @species = species
   end
-  #
-  # def say_species
-  #   #can say its species
-  # end
+  
+  def say_species
+    #can say its species
+    @pets.keys
+  end
 
 
 

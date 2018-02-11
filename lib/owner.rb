@@ -4,7 +4,6 @@ class Owner
   @pets = {fishes: [], cats: [], dogs: []}
   @@all = []
 
-  ###CLASS METHODS
   def initialize(name)
     # class method to initialize an owner
     @name = name

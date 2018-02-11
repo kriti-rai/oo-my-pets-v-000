@@ -15,9 +15,10 @@ class Owner
     @@all
   end
 
-  def class.owners_count
+  def class.all_count
     owner = self.new
     self.all << owner
+    self.all.count
     #  unless self.owners.include?(owner)
   end
 

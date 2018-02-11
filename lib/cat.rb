@@ -4,6 +4,6 @@ attr_reader :name
 # attr_writer
    def initialize(name, mood = "nervous")
      @name
-     @mood = "nervous"
+     @mood = mood
    end
 end

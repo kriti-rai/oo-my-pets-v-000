@@ -13,7 +13,6 @@ class Owner
     owner = self.new
     self.owners << owner unless self.owners.include?(owner)
   end
-
   def initialize(name)
     #class method to initialize an owner
     @name = name
@@ -21,7 +20,7 @@ class Owner
 
   #INSTANCE METHODS
   def species(species)
-    class.initialize(species)
+    
   end
 
   def say_species

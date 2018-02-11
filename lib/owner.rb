@@ -20,7 +20,7 @@ class Owner
 
   #INSTANCE METHODS
   def species(species)
-    
+
   end
 
   def say_species

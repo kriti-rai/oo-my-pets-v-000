@@ -1,11 +1,11 @@
 class Owner
   attr_accessor :pets, :owners
   @pets = {fishes: [], cats: [], dogs: []}
-  @@owners = []
+  @@all = []
 
   ###CLASS METHODS
 
-  def class.owners
+  def class.all
   #keeps track of the owners that have been created
     @@owners
   end

@@ -23,7 +23,7 @@ class Owner
   end
 
   # #INSTANCE METHODS
-  def species
+  # def species
 
   def say_species
     #can say its species

@@ -4,7 +4,7 @@ class Owner
   @@owners = []
 
   #CLASS METHODS
-  
+
   def class.owners
   #keeps track of the owners that have been created
     @@owners
@@ -28,6 +28,6 @@ class Owner
     #can say its species
   end
 
-  
-  
+
+
 end

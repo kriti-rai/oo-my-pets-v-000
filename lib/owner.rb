@@ -12,6 +12,7 @@ class Owner
 
   def self.all
   #keeps track of the owners that have been created
+    binding.pry
     owner = self.new(name)
     @@all << owner
   end

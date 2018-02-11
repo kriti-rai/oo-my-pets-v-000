@@ -12,7 +12,7 @@ class Owner
   def self.all
   #keeps track of the owners that have been created
     owner = self.new(name)
-    @@all << o
+    @@all << owner
   end
 
   def self.all_count

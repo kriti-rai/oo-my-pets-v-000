@@ -6,9 +6,10 @@ class Owner
   @pets = {fishes: [], cats: [], dogs: []}
   @@all = []
 
-  def initialize(name)
+  def initialize(name, species)
     @name = name
     @@all << self
+    @species = species
   end
   def self.all
     @@all
@@ -22,10 +23,6 @@ class Owner
   end
 
   # #INSTANCE METHODS
-  def initialize(species)
-    @species = species
-  end
-
   def say_species
     #can say its species
     @pets.keys

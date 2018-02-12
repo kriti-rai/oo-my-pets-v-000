@@ -52,7 +52,7 @@ class Owner
             pet.mood= "nervous"
             pets.clear
           end
-          
+
         end
       end
   end

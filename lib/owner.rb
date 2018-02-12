@@ -50,10 +50,9 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
+    # binding.pry
     @pets.each do |pets, pet| @pets.clear
-
-      pet.each do |p| p.mood = "nervous"
+      pet.collect do |p| p.mood = "nervous"
       end
     end
   end

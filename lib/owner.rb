@@ -61,7 +61,7 @@ class Owner
     @pets.each do |type, pets|
       if type == :fish
         fish_count = pets.count
-        # @binding.pry
+        @binding.pry
       else
         "xyz"
       # elsif type == :cats

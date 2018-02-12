@@ -62,12 +62,12 @@ class Owner
   #   #   binding.pry
       if type == :fish
         fish_count = pets.count
-      elsif type == :cats
-        cats_count = pets.count
-      elsif type == :dogs
-        dogs_count = pets.count
-      end
-        puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
+      # elsif type == :cats
+      #   cats_count = pets.count
+      # elsif type == :dogs
+      #   dogs_count = pets.count
+      # end
+      #   puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
       end
       # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
     end

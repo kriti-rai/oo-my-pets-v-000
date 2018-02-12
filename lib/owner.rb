@@ -47,12 +47,11 @@ class Owner
   def sell_pets
     if !self.pets.values.empty?
       # self.pets.values.clear
-      self.pets.values.each do |pets|
+      self.pets.values.each do |pets| pets.clear
           pets.each do |pet|
             pet.mood= "nervous"
           end
         end
-        @pets.values.clear
       end
   end
 

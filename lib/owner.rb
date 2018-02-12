@@ -50,10 +50,10 @@ class Owner
     # binding.pry
     self.pets.each do |type,pets|
       # binding.pry
-      if pets.clear
+      pets.clear
         pets.map do |pet| pet.mood = "nervous"
-          binding.pry
-        end
+          # binding.pry
+        # end
       end
     end
   end

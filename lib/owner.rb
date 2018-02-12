@@ -24,7 +24,9 @@ class Owner
 
   # #INSTANCE METHODS
   # def species
-
+  def pets
+    @pets
+  end
   def say_species
     "I am a #{@species}."
   end

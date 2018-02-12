@@ -51,7 +51,7 @@ class Owner
     self.pets.each do |type,pets|
       # binding.pry
       pets.clear
-        pets.map do |pet| pet.mood = "nervous"
+        pets.map do |pet| pet.mood= "nervous"
           # binding.pry
         # end
       end

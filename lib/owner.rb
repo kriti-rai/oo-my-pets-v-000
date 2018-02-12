@@ -53,13 +53,11 @@ class Owner
       # binding.pry
       pets.map do |pet|
           pet.mood= "nervous"
-        # end
-      # binding.pry
       end
-      # self.pets.values.clear
+      self.pets.values.clear
       # binding.pry
     end
-    self.pets.values.clear
+    # self.pets.values.clear
   end
 
   def list_pets

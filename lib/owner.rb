@@ -64,11 +64,11 @@ class Owner
 
     @pets.each do |type, pets|
       if type == :fish
-        fish_count = @pets.count
+        fish_count = pets.count
       elsif type == :cats
-        cats_count = @pets.count
+        cats_count = pets.count
       elsif type == :dogs
-        dogs_count = @pets.count
+        dogs_count = @.count
       end
         puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
       end

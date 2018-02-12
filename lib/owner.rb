@@ -50,11 +50,11 @@ class Owner
     # binding.pry
 
     self.pets.values.each do |pets|
-      binding.pry
+      # binding.pry
       pets.each do |pet|
           pet.mood= "nervous"
         # end
-      # binding.pry
+      binding.pry
       end
     end
   end

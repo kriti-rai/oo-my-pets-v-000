@@ -48,13 +48,14 @@ class Owner
   def feed_fish
     @pets[:fishes].each {|fish| fish.mood = "happy"}
   end
-  def list_all
-  end
+
   def sell_pets
     @pets.each do |pets, pet| @pets.clear
       pet.each do |p| p.mood = "nervous"
       end
     end
+  end
+  def list_all
   end
 
 

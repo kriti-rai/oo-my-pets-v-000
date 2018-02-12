@@ -56,6 +56,7 @@ class Owner
         # end
       binding.pry
       end
+      pets.clear
     end
   end
 

@@ -53,6 +53,7 @@ class Owner
         pets.map do |pet|
           pet.mood= "nervous"
         end
+        binding.pry
       end
     end
   end

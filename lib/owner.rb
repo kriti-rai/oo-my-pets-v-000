@@ -58,20 +58,10 @@ class Owner
   end
 
   def list_all
-      binding.pry
-    @pets.each do |type, pets|
-      if type == :fish
-        fish_count = pets.count
-        puts "#{fish_count}"
-      #  elsif type == :cats
-      #    cats_count = pets.count
-      #  elsif type == :dogs
-      #    dogs_count = pets.count
-      #  end
-      #    puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
-      end
-      # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
-    end
+    dog_count = @pets[:dogs].count
+    cat_count = @pets[:cats].count
+    fish_count = @pets[:fish].count     
+    puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
 
 

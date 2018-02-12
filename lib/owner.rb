@@ -70,8 +70,9 @@ class Owner
       elsif type == :dogs
         dogs_count = pets.count
       end
-        puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
+        # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
       end
+      puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
     end
 
 

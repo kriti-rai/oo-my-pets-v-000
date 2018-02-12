@@ -42,7 +42,7 @@ class Owner
   # def walk_dogs(dog,name)
   #   dog = Dog.new(name)
   #   self.buy_dog(name)
-  # 
+  #
   #   dog.mood = "happy"
   # end
 

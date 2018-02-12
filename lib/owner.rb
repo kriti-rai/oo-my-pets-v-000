@@ -51,12 +51,26 @@ class Owner
 
   def sell_pets
     # binding.pry
-    @pets.each do |pet| @pets.clear
+    @pets.each do |type,pet| @pets.clear
       pet.collect do |p| p.mood = "nervous"
       end
     end
   end
   def list_all
+    #expect(owner.list_pets).to eq("I have 2 fish, 3 dog(s), and 1 cat(s).")
+    #iterates over @pets and finds each type of pets the owner hash
+    #iterates over the array of pets listed inside type and returns the count
+    #puts the statement
+    
+    @pets.keys do |type| 
+      if type = :fish
+        fish_count = @pets[:fish].count
+      elsif type = :cats
+        cats_count = @pets[:cats].count
+      elsif type = :dogs
+        dogs_count = @pets[:dogs].count
+        
+      
   end
 
 

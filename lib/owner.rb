@@ -63,11 +63,11 @@ class Owner
     #puts the statement
 
     @pets.keys do |type|
-      if type = :fish
+      if type == :fish
         fish_count = @pets[:fish].count
-      elsif type = :cats
+      elsif type == :cats
         cats_count = @pets[:cats].count
-      elsif type = :dogs
+      elsif type == :dogs
         dogs_count = @pets[:dogs].count
       end
         puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."

@@ -21,12 +21,7 @@ class Owner
   def self.reset_all
     @@all.clear
   end
-
-  # #INSTANCE METHODS
-  # def species
-  def pets
-    @pets
-  end
+  
   def say_species
     "I am a #{@species}."
   end

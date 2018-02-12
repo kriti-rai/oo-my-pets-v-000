@@ -30,9 +30,9 @@ class Owner
   end
 
   def buy_fish
-    @pets[fishes] << Fish.new(name, mood = "nervous")
+    @pets[fishes] << Fish.new(name)
   end
-
+    
 
 
 end

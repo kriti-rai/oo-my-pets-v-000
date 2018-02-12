@@ -68,7 +68,7 @@ class Owner
       elsif type == :cats
         cats_count = pets.count
       elsif type == :dogs
-        dogs_count = @.count
+        dogs_count = pets.count
       end
         puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
       end

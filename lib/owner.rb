@@ -62,13 +62,13 @@ class Owner
     #iterates over the array of pets listed inside type and returns the count
     #puts the statement
 
-    @pets.keys do |type|
+    @pets.each do |type, pets|
       if type == :fish
-        fish_count = @pets[:fish].count
+        fish_count = @pets.count
       elsif type == :cats
-        cats_count = @pets[:cats].count
+        cats_count = @pets.count
       elsif type == :dogs
-        dogs_count = @pets[:dogs].count
+        dogs_count = @pets.count
       end
         puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
       end

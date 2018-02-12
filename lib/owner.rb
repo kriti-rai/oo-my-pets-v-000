@@ -72,9 +72,6 @@ class Owner
       # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
     end
   end
-  #
-  #
-  end
 
 
 end

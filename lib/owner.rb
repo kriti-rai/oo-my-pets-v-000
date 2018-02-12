@@ -56,28 +56,28 @@ class Owner
       end
     end
   end
-  def list_all
-    #expect(owner.list_pets).to eq("I have 2 fish, 3 dog(s), and 1 cat(s).")
-    #iterates over @pets and finds each type of pets the owner hash
-    #iterates over the array of pets listed inside type and returns the count
-    #puts the statement
-
-    @pets.each do |type, pets|
-      binding.pry
-      if type == fish
-        fish_count = pets.count
-      # elsif type == :cats
-      #   cats_count = pets.count
-      # elsif type == :dogs
-      #   dogs_count = pets.count
-      end
-        # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
-      end
-      # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
-    end
-
-
-  end
+  # def list_all
+  #   #expect(owner.list_pets).to eq("I have 2 fish, 3 dog(s), and 1 cat(s).")
+  #   #iterates over @pets and finds each type of pets the owner hash
+  #   #iterates over the array of pets listed inside type and returns the count
+  #   #puts the statement
+  # 
+  #   # @pets.each do |type, pets|
+  #   #   binding.pry
+  #   #   if type == fish
+  #   #     fish_count = pets.count
+  #   #   # elsif type == :cats
+  #   #   #   cats_count = pets.count
+  #   #   # elsif type == :dogs
+  #   #   #   dogs_count = pets.count
+  #   #   end
+  #   #     # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
+  #   #   end
+  #   #   # puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
+  #   # end
+  # 
+  # 
+  # end
 
 
 end

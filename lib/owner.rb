@@ -59,9 +59,9 @@ class Owner
 
   def list_all
     @pets.each do |type, pets|
-      binding.pry
       if type == :fish
         fish_count = pets.count
+        @binding.pry
       # elsif type == :cats
       #   cats_count = pets.count
       # elsif type == :dogs

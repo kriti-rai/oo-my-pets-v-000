@@ -16,10 +16,9 @@ class Owner
   end
   def self.count
     self.all.size
-    #  unless self.owners.include?(owner)
   end
   def self.reset_all
-    @@all.clear
+    self.all.clear
   end
 
   def say_species

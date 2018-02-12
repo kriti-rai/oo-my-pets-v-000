@@ -30,34 +30,34 @@ class Owner
     self.pets[:fishes] << Fish.new(name)
   end
   def buy_cat(name)
-    @pets[:cats] << Cat.new(name)
+    self.pets[:cats] << Cat.new(name)
   end
   def buy_dog(name)
     # binding.pry
-    @pets[:dogs] << Dog.new(name)
+    self.pets[:dogs] << Dog.new(name)
   end
   def walk_dogs
-    @pets[:dogs].each {|dog| dog.mood = "happy"}
+    self.pets[:dogs].each {|dog| dog.mood = "happy"}
   end
   def play_with_cats
-    @pets[:cats].each {|cat| cat.mood = "happy"}
+    self.pets[:cats].each {|cat| cat.mood = "happy"}
   end
   def feed_fish
-    @pets[:fishes].each {|fish| fish.mood = "happy"}
+    self.pets[:fishes].each {|fish| fish.mood = "happy"}
   end
 
   def sell_pets
     # binding.pry
-    @pets.each do |type,pet| @pets.clear
+    self.pets.each do |type,pet| @pets.clear
       pet.collect do |p| p.mood = "nervous"
       end
     end
   end
 
   def list_pets
-    dog_count = @pets[:dogs].count
-    cat_count = @pets[:cats].count
-    fish_count = @pets[:fishes].count
+    dog_count = self.pets[:dogs].count
+    cat_count = self.pets[:cats].count
+    fish_count = self.pets[:fishes].count
     "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
 

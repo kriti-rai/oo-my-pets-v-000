@@ -52,6 +52,7 @@ class Owner
       # binding.pry
       # pets.clear
         pets.map do |pet| pet.mood= "nervous"
+          pets.clear
           # binding.pry
         # end
       end

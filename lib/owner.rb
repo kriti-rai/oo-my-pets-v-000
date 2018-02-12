@@ -49,9 +49,7 @@ class Owner
       binding.pry
       # self.pets.values.clear
       self.pets.values.each do |pets|
-          pets.each do |pet|
-            pet.mood= "nervous"
-          end
+          pets.each {|pet| pet.mood= "nervous"}
           pets.clear
         end
       end

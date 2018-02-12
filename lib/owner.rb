@@ -63,6 +63,7 @@ class Owner
     #puts the statement
 
     @pets.each do |type, pets|
+      binding.pry
       if type == :fish
         fish_count = pets.count
       elsif type == :cats

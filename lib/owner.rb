@@ -56,7 +56,7 @@ class Owner
         # end
       binding.pry
       end
-      pets.clear
+      self.pets.values.clear
     end
   end
 

@@ -29,10 +29,10 @@ class Owner
     "I am a #{@species}."
   end
 
-  def buy_fish
+  def buy_fish(name)
     @pets[fishes] << Fish.new(name)
   end
-    
+
 
 
 end

@@ -47,7 +47,7 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
+    # binding.pry
     self.pets.values.each do |pets|
       if pets.clear
         pets.map do |pet|

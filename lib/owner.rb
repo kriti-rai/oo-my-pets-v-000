@@ -59,10 +59,11 @@ class Owner
 
   def list_all
     @pets.each do |type, pets|
+      @binding.pry
       if type == :fish
         fish_count = pets.count
         puts "#{fish_count}"
-        @binding.pry
+        
       else
         "xyz"
       # elsif type == :cats
